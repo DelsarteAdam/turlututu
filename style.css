@@ -27,23 +27,29 @@ a:active {
   color: var(--logosection);
 }
 
-body {
-  width: 1920px;
-}
-
 header {
   background-color: var(--header);
-  height: 100px;
+  width: 100%;
   display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 250px;
+}
+
+nav {
+  width: 75%;
+  margin-left: 20px;
+}
+
+nav a {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .login {
   float: right;
 }
 
-ul li {
-  display: inline;
-  list-style: none;
-  margin-left: 20px;
-  margin-right: 20px;
+.logologin {
+  width: 10px;
 }
